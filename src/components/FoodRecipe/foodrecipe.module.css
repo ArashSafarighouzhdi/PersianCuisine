@@ -1,0 +1,14 @@
+.recipe {
+  font-size: 16px;
+  padding-left: 24px;
+  font-family: var(--font-title);
+  line-height: 36px;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .recipe {
+    font-size: 15px;
+    line-height: 28px;
+  }
+}

@@ -1,0 +1,29 @@
+.main_page {
+  text-align: center;
+  padding: 18px;
+}
+
+.main_page h1 {
+  font-size: 36px;
+  font-weight: lighter;
+}
+.main_page h3 {
+  font-size: 24px;
+  font-weight: lighter;
+  padding-top: 24px;
+}
+
+@media (max-width: 768px) {
+  .main_page {
+    padding: 10px;
+  }
+
+  .main_page h1 {
+    font-size: 28px;
+  }
+
+  .main_page h3 {
+    font-size: 18px;
+    padding-top: 16px;
+  }
+}

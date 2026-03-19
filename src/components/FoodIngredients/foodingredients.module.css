@@ -1,0 +1,23 @@
+.ingredients {
+  column-count: 3;
+  column-gap: 20px;
+  font-size: 15px;
+  padding-top: 8px;
+  padding-left: 24px;
+  font-family: var(--font-title);
+  line-height: 24px;
+  text-align: justify;
+}
+
+.ingredients li {
+  list-style-position: inside;
+}
+
+@media (max-width: 768px) {
+  .ingredients {
+    column-count: 2;
+
+    column-gap: 0;
+    font-size: 14px;
+  }
+}
